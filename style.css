@@ -22,6 +22,7 @@ E4CA95 - Brown
 96E4A3 - Green
 96B0E4 - Purple
 E4A396 - Pinkish red
+96D7E4 - Light blue
 
 
 */
@@ -36,6 +37,11 @@ html,body{
 header{
 	top:0px;
 	height:auto;
+}
+
+footer{
+	height:60vh;
+	background:black;
 }
 
 #top h1{
@@ -53,6 +59,11 @@ header{
 	width:100%;
 	height:100vh;
 }
+
+section{
+	height:100vh;
+}
+
 a{
 	text-decoration:none;
 	color:white;
@@ -86,7 +97,21 @@ a{
 	line-height:100px;
 }
 
+#theCause{
+	background:#E4A396;
+}
 
+#thePlan{
+	background:#96D7E4;
+}
+
+#aboutMe{
+	background:#D7E496;
+}
+
+#myStory{
+	background:#96B0E4;
+}
 
 .sideButton{
 	background:#E4CA95;
