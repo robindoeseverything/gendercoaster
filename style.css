@@ -41,7 +41,7 @@ header{
 
 footer{
 	height:60vh;
-	background:black;
+	background:#424242;
 }
 
 #top h1{
@@ -55,13 +55,14 @@ footer{
 	line-height:95%;
 }
 #top{
-	background-color:rgba(30,30,30,50);
-	width:100%;
-	height:100vh;
+	background:#424242;
+	
 }
 
-section{
-	height:100vh;
+section,header{
+	height:650px;
+	position:relative;
+	width:100%;
 }
 
 a{
@@ -121,3 +122,24 @@ a{
 	
 }
 
+
+.scrollButton{
+	width:100px;
+	height:50px;
+	margin:0 auto;
+}
+
+.scrollButton a{
+	
+}
+.scrollButton a img{
+	width:100%;
+	height:auto;
+}
+.scrollButtonContainer{
+	display:block;
+	position:absolute;
+	width:100%;
+	bottom:40px;
+	text-align:center;
+}
