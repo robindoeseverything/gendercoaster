@@ -39,7 +39,10 @@ Therefore, with these goals in mind, the general theme of the website must be on
 <body>
 	
 	<header id="top">
-		<div >
+		<div class="color-overlay"></div>
+		<img src="images/trail1.JPG" style="width:100%;z-index:-1000;position:absolute">
+		
+		<div id="topwrapper">
 			
 			<h1><a href="/" id="site-title">Gender <br>Coaster</a></h1>
 			<div id="links">
@@ -70,7 +73,11 @@ Therefore, with these goals in mind, the general theme of the website must be on
 		</div>
 	</section>
 	<section id="thePlan">
-		<img src="images/East Coast.png">
+		
+		<div class="color-overlay"></div>
+		<img src="images/foot1.JPG" style="width:100%;position:absolute;top:-70px;z-index:-1000">
+		<img src="images/East Coast.png" style="z-index:10;position:absolute">
+		
 		<div class="scrollButtonContainer">
 			<div class="scrollButton">
 				<a class="scrolling" href="#aboutMe">
@@ -80,6 +87,9 @@ Therefore, with these goals in mind, the general theme of the website must be on
 		</div>
 	</section>
 	<section id="aboutMe">
+		<div class="color-overlay"></div>
+		<img src="images/robin.JPG" style="width:100%;position:absolute;top:-90px;z-index:-1000">
+		
 		<div class="scrollButtonContainer">
 		
 			<div class="scrollButton">
@@ -100,7 +110,14 @@ Therefore, with these goals in mind, the general theme of the website must be on
 		</div>
 	</section>
 	<footer>
-		
+		<div id="bottomWrapper">
+			<a class="btn bottomButton" id="bottomdonate">
+					Donate
+			</a>
+			<a class="btn bottomButton" id="bottomRunWRobin">
+				Run With Robin
+			</a>
+		</div>
 	</footer>
 	
 	
@@ -112,6 +129,8 @@ Therefore, with these goals in mind, the general theme of the website must be on
 		},500);
 		return false;
 	});
+	
+	
 	</script>
 </body>
 </html>
